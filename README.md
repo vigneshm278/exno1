@@ -75,10 +75,11 @@ df.fillna(method='ffill')
 <img width="1700" height="823" alt="Screenshot 2025-09-05 223440" src="https://github.com/user-attachments/assets/1f42fdb9-4be6-4ff1-960d-72e9d1e1458b" />
 
 ```
-df.fillna({'GENDER':'MALE','NAME':'SRI'})
+df.fillna({'NAME':'VICKY','DOB': '2005-8-27', 'GENDER': 'Male', 'ADDRESS': 'Ambethkar st',
+          'M1': 27.9, 'M2': 26.0, 'M3': 25.0, 'M4': 24.0, 'TOTAL': 100.0})
 ```
+<img width="1241" height="768" alt="Screenshot 2025-09-06 102241" src="https://github.com/user-attachments/assets/92e70261-d93b-44d1-ba9d-6d684730cd06" />
 
-<img width="1179" height="863" alt="Screenshot 2025-09-05 223712" src="https://github.com/user-attachments/assets/c9f50f55-f82b-467b-8ec0-9e8f3afd5673" />
 
 ```
 ir=pd.read_csv("/content/iris.csv")
